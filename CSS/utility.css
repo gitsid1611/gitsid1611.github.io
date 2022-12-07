@@ -1,0 +1,171 @@
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #7f7deb;
+    color: white;
+    border-radius: 6%;
+}
+.btn-primary{
+  
+    /* background-color: var(--primary);
+    color: var(--secondary); */
+    transition: all .3s ease;
+}
+.btn-primary:hover{
+    background: transparent;
+    border-color:#910909; ;
+    color: #910909;
+    background-color: #7f7deb;
+}
+.btn-secondary{
+    background: transparent;
+    /* color: var(--primary);
+    border-color: var(--primary); */
+}
+.btn-secondary:hover{
+  background-color: #7b7b7b;
+/* background: var(--primary);
+color: var(--secondary); */
+
+}
+.flex-1{
+    flex: 1;
+}
+.justify-center{
+    justify-content: center;
+}
+
+/* my contribution starts */
+#statistic {
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+    font-weight: 600;
+    /* color: #7b7b7b; */
+    /* color: var(--primary); */
+    color: #7f7deb;
+    letter-spacing: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #project_contribution {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, auto);
+    font-family: "Poppins", sans-serif;
+    width: 90%;
+    margin: auto;
+    gap: 50px;
+    padding-top: 100px;
+    align-content: center;
+    padding-bottom: 200px;
+    letter-spacing: 1px;
+  }
+  .conthead {
+    text-align: center;
+    /* color:black; */
+    /* color: var(--primary); */
+    color: #7f7deb;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 30px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    transition: all 1s;
+  }
+  .conthead:hover {
+    transform: rotateY(360deg);
+  }
+  .conthead > h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .conthead > h2 > span {
+    /* color: var(--primary); */
+    color: #7f7deb;
+    font-size: 40px;
+  }
+  .conthead > h2 + p {
+    font-weight: 500;
+  }
+  @media all and (min-width: 500px) and (max-width: 940px) {
+    #statistic {
+      font-size: 40px;
+      margin-top: 100px;
+      font-weight: 700;
+      letter-spacing: 7px;
+    }
+    #project_contribution {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);
+    }
+    
+  }
+  @media all and (min-width: 150px) and (max-width: 500px) {
+    #statistic {
+      font-size: 40px;
+      margin-top: 60px;
+      font-weight: 700;
+      letter-spacing: 5px;
+      padding-top: 70px;
+    }
+    #project_contribution {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, auto);
+      padding-top: 50px;
+    }
+  }
+  .git{
+    width: 80%;
+    margin: auto;
+    /* color: var(--primary);
+     */
+     color: #7f7deb;
+  }
+  .git span{
+    /* color: var(--primary); */
+    color: #7f7deb;
+  }
+  .calendar
+  {
+    margin-top: -200px;
+  }
+ /* git calender */
+.code {
+    font-family: "Poppins", sans-serif;
+    color: #910909;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .calendar {
+    color: #910909;
+    background-color: white;
+    transition: all 0.5s;
+    width: 76%;
+  }
+  .calendar:hover {
+    background-color: #910909;
+  }
+
+  #ctr{
+    display: block;
+    margin: auto;
+  }
