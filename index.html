@@ -16,11 +16,15 @@
  rel="stylesheet"
  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
 />
+
+<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
     <div class="site-main-wrraper">
-        <div class="mobile_head">
+        <div class="mobile_head" id="get">
+            <div id="nams">Sudhirkumar</div>
             <button class="hamberger">
                 <span>
                     <ion-icon name="menu"></ion-icon>
@@ -35,29 +39,29 @@
                 </span>
             </button>
 
-            <ul>
-                <li class="close"><a href="#homePage">Home</a></li>
+            <ul id="clode">
+                <li class="close cnas" id="cnas"><a class="close" id="cnas" href="#homePage">Home</a></li>
                 <hr>
-                <li class="close"><a href="#aboutPage">About</a></li>
+                <li class="close" id="cnas"><a class="close" id="cnas" href="#aboutPage">About</a></li>
                 <hr>
-                <li class="close"><a href="#educationPage">Education</a></li>
+                <li class="close" id="cnas"><a class="close" id="cnas" href="#educationPage">Education</a></li>
 
                 <hr>
-                <li class="close"><a href="#skillPage">My Skills</a></li>
+                <li class="close" id="cnas"><a class="close" id="cnas" href="#skillPage">My Skills</a></li>
                 <hr>
-                <li class="close"><a href="#ProjectPage">Projects</a></li>
+                <li class="close" id="cnas"><a class="close" id="cnas" href="#ProjectPage">Projects</a></li>
                 <hr>
-                <li class="close"><a href="#statics">Statistics</a></li>
+                <li class="close" id="cnas"><a class="close" id="cnas" href="#statics">Statistics</a></li>
                 <hr>
-                <li><a href="#contact">Contact</a></li>
+                <li id="cnas"><a class="close" id="cnas" href="#contact">Contact</a></li>
                 <hr>
-                <li><a href="images\Sudhirkumar Shukla(1).pdf" onclick=" window.open('https://drive.google.com/file/d/1GLplt5Fk3UDvZen-Mp508x8GElvLuL4o/view?usp=share_link','_blank')" download>DOWNLOAD
+                <li id="cnas"><a class="close" id="cnas" href="images\Sudhirkumar Shukla(1).pdf" onclick=" window.open('https://drive.google.com/file/d/1GLplt5Fk3UDvZen-Mp508x8GElvLuL4o/view?usp=share_link','_blank')" download>DOWNLOAD
                         RESUME</a></li>
             </ul>
 
         </div>
         <header>
-            <div class="container">
+            <div class="container" id-="manav">
 
 
                 <nav id="main-nav" class="flex item-center justify-between">
@@ -124,29 +128,35 @@
 
     <!-- Second Page -->
     <section id="aboutPage" class="about">
-        <div class="container flex item-center justify-between">
-            <div class="flex-1">
-                <img class="about-img" src=".\images\Profile1.png.jpg" alt="">
+        <div id="abpage">
+
+
+            <div class="container flex item-center justify-between">
+                <div class="flex-1">
+                    <img class="about-img" src=".\images\Profile1.png.jpg" alt="">
+                </div>
+                <div class="flex-1" id="aboupara">
+                    <h1>About<span> Me</span></h1>
+                    <h3>Hello I'm <span class="skills">Sudhirkumar Shukla</span></h3>
+                    <p>
+                        Creative and diligent aspiring full-stack developer with a specialization in java backend.
+    
+                        Possess excellent
+                        knowledge in Java, Spring Boot, Hibernate, MySQL as well as
+                        frontend technologies. <br>
+                        Enthusiastic, with a keen interest in building and designing backend.
+    
+    
+                        Ability to learn things quickly and capable
+                        of working in a fast-paced and team-driven environment.Looking forward to sharpening my skills in a
+                        challenging environment.
+                    </p>
+    
+                </div>
             </div>
-            <div class="flex-1">
-                <h1>About<span> Me</span></h1>
-                <h3>Hello I'm <span class="skills">Sudhirkumar Shukla</span></h3>
-                <p>
-                    Creative and diligent aspiring full-stack developer with a specialization in java backend.
 
-                    Possess excellent
-                    knowledge in Java, Spring Boot, Hibernate, MySQL as well as
-                    frontend technologies. <br>
-                    Enthusiastic, with a keen interest in building and designing backend.
-
-
-                    Ability to learn things quickly and capable
-                    of working in a fast-paced and team-driven environment.Looking forward to sharpening my skills in a
-                    challenging environment.
-                </p>
-
-            </div>
         </div>
+        
 
     </section>
 
@@ -600,9 +610,9 @@
 
 
     </div>
-
+<!-- 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script> -->
 
 </body>
 

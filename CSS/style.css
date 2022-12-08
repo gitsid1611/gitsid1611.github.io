@@ -4,15 +4,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    -webkit-font-smothing:antialiased;
+    /* -webkit-font-smothing:antialiased; */
 }
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 body{
     /* background-color: var(--dark); */
     /* background-color: white; */
     font-family: 'Poppins',sans-serif;
+    background-color: #c0c0c5;
 }
 
 /* :root{
@@ -33,6 +34,23 @@ header{
    height: auto;
    
 }
+
+/* ///////////naming  */
+#nams{
+    display: none;
+    margin-top: 3%;
+    font-size: 1.3rem;
+    color: #910909;
+    margin-left: 3%;
+}
+
+#get{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 .container{
 
     max-width: 1152px;
@@ -100,6 +118,7 @@ header nav{
     margin: auto;
     /* margin-top: 10rem; */
     padding-bottom: 2.5rem;
+    background-color:#c0c0c5; ;
 }
 /* .empty{
     height:100px;
@@ -108,14 +127,14 @@ header nav{
     width: 100%;
     text-align: center;
     padding-top: 10%;
-    color: var(--pure);
+    color: #7f7deb;
     padding-bottom: 20%;
     padding-left: 5%;
     /* padding: 0 50% 0 0; */
 }
 .main .right h6{
     font-size: 3rem;
-    color: var(--primary);
+    color: #910909;
     margin-bottom: 1rem;
 }
 .main .right h1{
@@ -127,7 +146,7 @@ header nav{
 .main .right h1 span{
    
     /* margin-top: 3rem; */
-    color: var(--primary);
+    color: #910909;
     /* font-size: 3.0; */
 }
 .main .right p{
@@ -136,7 +155,7 @@ header nav{
     font-size: 20px;
 }
 .skill:hover{
-    border: 2px solid var(--primary);
+    border: 2px solid #910909;;
 }
 .skills{
     /* color: #910909; */
@@ -193,6 +212,11 @@ section.about{
 
 /* Education Page */
 
+
+#educationPage>h1{
+    color: #910909;
+}
+
 #educationPage .box-container{
 
 
@@ -226,8 +250,8 @@ section.about{
 #educationPage .box-container .box2 span{
 
     font-size: 1.3rem;
-    background: var(--primary);
-    color: var(--dark);
+    background: #910909;
+    color: #18b7ff;
     padding: .5rem 2.5rem;
     font-weight: 700;
 
@@ -235,7 +259,7 @@ section.about{
 }
 #educationPage .box-container .box2 h3{
     font-size: 1.5rem;
-    color: var(--primary);
+    color: #910909;
     font-weight: 600;
     padding-top: 1.5rem ;
 
@@ -244,13 +268,13 @@ section.about{
 #educationPage .box-container .box2 p{
 
     font-size: 1.0rem;
-    color: var(--light);
+    color: #093991;
     padding-top: 1.5rem 0;
 
 }
 .heading{
     padding-top: 7%;
-    color: var(--pure);
+    /* color: var(--pure); */
     text-align: center;
     font-size: 2rem;
 
@@ -333,7 +357,7 @@ section#ProjectPage{
     padding: 1%;
 }
 .project-heading{
-    color: var(--pure);
+    color: #910909;
     margin-top: 2rem;
     text-align: center;
     font-size: 2rem;
@@ -360,7 +384,7 @@ section#ProjectPage{
 
 .Myskills{
     
-    color: var(--pure);
+    color: #910909;
     padding-bottom: 10%;
 }
 
@@ -434,7 +458,7 @@ section#ProjectPage{
 .contactus .title h2{
     /* color: var(--primary);
      */
-     color: white;
+     color: #910909;
     font-weight: 600;
 }
 .form{
@@ -636,7 +660,7 @@ section#ProjectPage{
     top: 0;
     left: 0;
     z-index: 1001;
-    background: var(--primary);
+    background:#18b7ff;;
     padding: 2rem;
     padding-top: 5rem;
     transform: translateX(-100%);
@@ -682,10 +706,63 @@ section#ProjectPage{
  }
 
 /* Responsiveness----------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-@media (max-width:991px ) {
+@media (max-width:400px ) and (min-width:300px) {
+
+    body{
+        width: auto;
+        overflow-x: hidden;
+        background-color: #c0c0c5;
+    }
+
+    #nams{
+        display: block;
+    }
+
+    #homePage h2{
+
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+
+    }
+
+    .right h6{
+        width: 90%;
+        margin: auto;
+        font-size: 25px;
+
+    }
+    
+    .container{
+        width: 90%;
+        margin: auto;
+        /* display: grid;
+        grid-template-columns: repeat(1,1fr); */
+
+    }
+
+    .container{
+        display: grid;
+        
+     
+    }
+
+
+    #aboupara{
+        width: 95%;
+        margin: auto;
+    }
+    .about-img {
+     
+        width: 70%;
+        margin: auto;
+        margin-left: 15%;
+    }
+    
+
     .mobile_head{
         position: fixed;
-        /* border: 2px solid var(--primary); */
+        
         width: 100%;
         height: 50px;
     
@@ -732,7 +809,7 @@ section#ProjectPage{
     }
 
     .contain {
-        /* border: 1px solid green; */
+       
         height: auto;
         grid-template-columns:1fr;
         grid-template-rows: auto;
@@ -750,32 +827,17 @@ section#ProjectPage{
       
     }
     
-    .container{
-        display: flex;
-        /* grid-template-columns: 1fr; */
-        /* grid-template-rows: auto; */
-        /* gap: 20px;
-        margin-bottom: -20%; */
-    }
-    
+   
     .main {
         padding-top: 40%;
     }
     .main .right h1{
        line-height: 30px;
     }
-    .about .flex-1{
-        width: 75%;
-        margin: auto;
-    }
-    .about-img {
-     
-        /* margin-left: 0; */
-        width: 60%;
-    }
 
 
-    /* Navbar*/
+
+ 
     header #main-nav{
         display: none;
     }
@@ -790,7 +852,7 @@ section#ProjectPage{
     }
     .main .right h6 {
         font-size: 2rem;
-        /* color: var(--primary); */
+        
         color: #910909;
         margin-bottom: 1rem;
     }
@@ -803,3 +865,513 @@ section#ProjectPage{
 
 
  }
+
+
+
+/* Responsive for 401 to 550 */
+@media (max-width:600px ) and (min-width:401px) {
+
+    body{
+        width: auto;
+        overflow-x: hidden;
+        background-color: #c0c0c5;
+    }
+
+    #homePage h2{
+
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+
+    }
+
+    #nams{
+        display: block;
+    }
+
+    .right h6{
+        width: 90%;
+        margin: auto;
+        font-size: 25px;
+
+    }
+    
+    .container{
+        width: 90%;
+        margin: auto;
+        /* display: grid;
+        grid-template-columns: repeat(1,1fr); */
+
+    }
+
+    .container{
+        display: grid;
+        
+     
+    }
+
+
+    #aboupara{
+        width: 95%;
+        margin: auto;
+    }
+    .about-img {
+     
+        width: 60%;
+        margin: auto;
+        margin-left: 20%;
+    }
+    
+
+    .mobile_head{
+        position: fixed;
+        
+        width: 100%;
+        height: 50px;
+    
+        top: 15px;
+        background: var(--secondary);
+        margin-top: -15px;
+     }
+    .contact{
+        width: 70%;
+        margin: auto;
+    }
+    .infoBox div a {
+    font-size: 14px;
+    }
+    .contactus .title h2 {
+       font-size: 24px;
+        font-weight: 600;
+    }
+    .contactus{
+      
+        padding: 20px;
+       
+    }
+    .box{
+  
+     grid-template-columns: 1fr;
+     grid-template-rows: auto;
+     grid-template-areas:
+         "form"
+         "info "
+         "map ";
+        
+    }
+    .map{
+     min-height: 300px;
+    }
+    .formBox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+    .inputBox {
+       
+        width: 100%;
+    }
+
+    .contain {
+       
+        height: auto;
+        grid-template-columns:1fr;
+        grid-template-rows: auto;
+       
+    }
+    .myskill {
+        height: 800px;
+       grid-template-columns: repeat(2,1fr);
+       gap: 10px;
+    }
+    .skill {
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+      
+    }
+    
+   
+    .main {
+        padding-top: 40%;
+    }
+    .main .right h1{
+       line-height: 30px;
+    }
+
+
+
+ 
+    header #main-nav{
+        display: none;
+    }
+    .hamberger{
+        display: flex;
+    }
+    .main .right h1{
+        font-size: 1.5rem;
+    }
+    .main .right h2{
+        font-size: 1.5rem;
+    }
+    .main .right h6 {
+        font-size: 2rem;
+        
+        color: #910909;
+        margin-bottom: 1rem;
+    }
+    .main .right p{
+        font-size: 16px;
+    }
+    .box{
+        margin: 0;
+    }
+
+
+ }
+
+
+ /* Responsive for 551 to 750 */
+ @media (max-width:750px ) and (min-width:551px) {
+
+    body{
+        width: auto;
+        overflow-x: hidden;
+        background-color: #c0c0c5;
+    }
+
+    #homePage h2{
+
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+
+    }
+
+    #nams{
+        display: block;
+    }
+
+
+    .right h6{
+        width: 90%;
+        margin: auto;
+        font-size: 25px;
+
+    }
+    
+    .container{
+        width: 90%;
+        margin: auto;
+        /* display: grid;
+        grid-template-columns: repeat(1,1fr); */
+
+    }
+
+    .container{
+        display: grid;
+        
+     
+    }
+
+
+    #aboupara{
+        width: 95%;
+        margin: auto;
+    }
+    .about-img {
+     
+        width: 90%;
+        margin: auto;
+        margin-left: 3%;
+    }
+    
+
+    .mobile_head{
+        position: fixed;
+        
+        width: 100%;
+        height: 50px;
+    
+        top: 15px;
+        background: var(--secondary);
+        margin-top: -15px;
+     }
+    .contact{
+        width: 350px;
+    }
+    .infoBox div a {
+    font-size: 14px;
+    }
+    .contactus .title h2 {
+       font-size: 24px;
+        font-weight: 600;
+    }
+    .contactus{
+      
+        padding: 20px;
+       
+    }
+    .box{
+  
+     grid-template-columns: 1fr;
+     grid-template-rows: auto;
+     grid-template-areas:
+         "form"
+         "info "
+         "map ";
+        
+    }
+    .map{
+     min-height: 300px;
+    }
+    .formBox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+    .inputBox {
+       
+        width: 100%;
+    }
+
+    .contain {
+       
+        height: auto;
+        grid-template-columns:1fr;
+        grid-template-rows: auto;
+       
+    }
+    .myskill {
+        height: 800px;
+       grid-template-columns: repeat(2,1fr);
+       gap: 10px;
+    }
+    .skill {
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+      
+    }
+    
+   
+    .main {
+        padding-top: 40%;
+    }
+    .main .right h1{
+       line-height: 30px;
+    }
+
+
+
+ 
+    header #main-nav{
+        display: none;
+    }
+    .hamberger{
+        display: flex;
+    }
+    .main .right h1{
+        font-size: 1.5rem;
+    }
+    .main .right h2{
+        font-size: 1.5rem;
+    }
+    .main .right h6 {
+        font-size: 2rem;
+        
+        color: #910909;
+        margin-bottom: 1rem;
+    }
+    .main .right p{
+        font-size: 16px;
+    }
+    .box{
+        margin: 0;
+    }
+
+
+ }
+
+
+
+ /* Responsive for 750 to 860 */
+
+ @media (max-width:850px ) and (min-width:751px) {
+
+    body{
+        width: auto;
+        overflow-x: hidden;
+        background-color: #c0c0c5;
+        
+    }
+
+    #homePage h2{
+
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+
+    }
+
+    #nams{
+        display: block;
+    }
+
+
+
+    .right h6{
+        width: 90%;
+        margin: auto;
+        font-size: 25px;
+
+    }
+    
+    .container{
+        width: 90%;
+        margin: auto;
+        /* display: grid;
+        grid-template-columns: repeat(1,1fr); */
+
+    }
+
+    .container{
+        display: grid;
+        
+     
+    }
+
+
+    #aboupara{
+        width: 95%;
+        margin: auto;
+    }
+    .about-img {
+     
+        width: 50%;
+        margin: auto;
+        margin-left: 25%;
+    }
+    
+
+    .mobile_head{
+        position: fixed;
+        
+        width: 100%;
+        height: 50px;
+    
+        top: 15px;
+        background: var(--secondary);
+        margin-top: -15px;
+     }
+    .contact{
+        width: 70%;
+        /* margin: auto; */
+        margin-top: 5%;
+        margin-left: 30%;
+    }
+
+     .title>h2{
+        color: #910909;
+     }
+
+
+    .infoBox div a {
+    font-size: 14px;
+    }
+    .contactus .title h2 {
+       font-size: 24px;
+        font-weight: 600;
+    }
+    .contactus{
+      
+        padding: 20px;
+       
+    }
+    .box{
+  
+     grid-template-columns: 1fr;
+     grid-template-rows: auto;
+     grid-template-areas:
+         "form"
+         "info "
+         "map ";
+        
+    }
+    .map{
+     min-height: 300px;
+    }
+    .formBox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+    .inputBox {
+       
+        width: 100%;
+    }
+
+    .contain {
+       
+        height: auto;
+        grid-template-columns:1fr;
+        grid-template-rows: auto;
+       
+    }
+    .myskill {
+        height: 800px;
+       grid-template-columns: repeat(2,1fr);
+       gap: 10px;
+    }
+    .skill {
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+      
+    }
+    
+   
+    .main {
+        padding-top: 10%;
+    }
+    .main .right h1{
+       line-height: 30px;
+    }
+
+    #manav{
+        background-color: #c0c0c5;
+        width: 100%;
+
+    }
+
+
+
+ 
+    header #main-nav{
+        display: none;
+    }
+    .hamberger{
+        display: flex;
+    }
+    .main .right h1{
+        font-size: 1.5rem;
+    }
+    .main .right h2{
+        font-size: 1.5rem;
+    }
+    .main .right h6 {
+        font-size: 2rem;
+        
+        color: #910909;
+        margin-bottom: 1rem;
+    }
+    .main .right p{
+        font-size: 16px;
+    }
+    .box{
+        margin: 0;
+    }
+
+
+ }
+ 

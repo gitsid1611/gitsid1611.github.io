@@ -6,14 +6,28 @@ let mobileNav= document.querySelector(".mobile-nav");
 hamberger.addEventListener('click',function(){
    
    mobileNav.classList.add("open");
+//    window.location.reload();
    
+   
+})
+
+document.querySelector("#clode").addEventListener("click",function(){
+    mobileNav.classList.remove("open");
 })
 
 times.addEventListener('click',function(){
     
 
     mobileNav.classList.remove("open");
+    // window.location.reload();
 })
+
+document.getElementById("cnas").addEventListener("click",function(){
+    mobileNav.classList.add("open");
+})
+
+
+
 // document.querySelector("#form").addEventListener("submit",sendEmail());
 function sendEmail(){
     Email.send({
