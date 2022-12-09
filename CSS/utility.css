@@ -15,7 +15,7 @@
     outline: none;
     cursor: pointer;
     text-transform: uppercase;
-    background-color: #7f7deb;
+    background-color: #ed2945;
     color: white;
     border-radius: 6%;
 }
@@ -27,9 +27,9 @@
 }
 .btn-primary:hover{
     background: transparent;
-    border-color:#910909; ;
-    color: #910909;
-    background-color: #7f7deb;
+    border-color:#062f4f;
+    color: #062f4f;
+    background-color: #ed2945;
 }
 .btn-secondary{
     background: transparent;
@@ -58,7 +58,7 @@ color: var(--secondary); */
     font-weight: 600;
     /* color: #7b7b7b; */
     /* color: var(--primary); */
-    color: #910909;
+    color: #062f4f;
     letter-spacing: 10px;
     font-family: "Poppins", sans-serif;
   }
@@ -80,7 +80,7 @@ color: var(--secondary); */
     text-align: center;
     /* color:black; */
     /* color: var(--primary); */
-    color: #7f7deb;
+    color: #ed2945;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding-top: 30px;
     font-size: 20px;
@@ -96,7 +96,7 @@ color: var(--secondary); */
   }
   .conthead > h2 > span {
     /* color: var(--primary); */
-    color: #7f7deb;
+    color: #ed2945;
     font-size: 40px;
   }
   .conthead > h2 + p {
@@ -136,11 +136,11 @@ color: var(--secondary); */
     margin: auto;
     /* color: var(--primary);
      */
-     color: #7f7deb;
+     color: #ed2945;
   }
   .git span{
     /* color: var(--primary); */
-    color: #7f7deb;
+    color: #ed2945;
   }
   .calendar
   {
@@ -149,23 +149,28 @@ color: var(--secondary); */
  /* git calender */
 .code {
     font-family: "Poppins", sans-serif;
-    color: #910909;
+    color: #062f4f;
     font-weight: 600;
     font-size: 50px;
     text-align: center;
     padding-bottom: 50px;
   }
   .calendar {
-    color: #910909;
-    background-color: white;
+    color: #ed2945;
+    background-color: #062f4f;
     transition: all 0.5s;
     width: 76%;
   }
   .calendar:hover {
-    background-color: #910909;
+    /* color: #062f4f; */
+    background-color: #020230;
+    
   }
 
   #ctr{
     display: block;
     margin: auto;
   }
+
+    /* color: #062f4f; */
+    /*  */

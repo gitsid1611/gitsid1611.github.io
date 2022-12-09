@@ -40,7 +40,7 @@ header{
     display: none;
     margin-top: 3%;
     font-size: 1.3rem;
-    color: #910909;
+    color: #062f4f;
     margin-left: 3%;
 }
 
@@ -60,7 +60,7 @@ header{
 }
 header nav .left a{
     /* color: var(--primary); */
-    color:  #7f7deb;
+    color:  #ed2945;
     text-decoration: none;
     margin-right: 2rem;
     text-transform: uppercase;
@@ -71,6 +71,19 @@ header nav .left a{
    
 
 }
+
+.btn-secondary{
+    color: #ed2945;
+    background-color: #062f4f;
+}
+
+.btn-secondary:hover{
+    background-color: #ed2945;
+    color: #062f4f;
+}
+
+
+
 header nav .left a:hover{
     /* color: var(--ternary); */
     color: #898989;
@@ -91,7 +104,7 @@ header nav{
     width: 100%;
     border: 1px solid #161616;
    
-    background-color: #910909;
+    background-color: #062f4f;
      color: white;
     top: 0;
     left: 0;
@@ -127,14 +140,14 @@ header nav{
     width: 100%;
     text-align: center;
     padding-top: 10%;
-    color: #7f7deb;
+    color: #ed2945;
     padding-bottom: 20%;
     padding-left: 5%;
     /* padding: 0 50% 0 0; */
 }
 .main .right h6{
     font-size: 3rem;
-    color: #910909;
+    color: #062f4f;
     margin-bottom: 1rem;
 }
 .main .right h1{
@@ -146,7 +159,7 @@ header nav{
 .main .right h1 span{
    
     /* margin-top: 3rem; */
-    color: #910909;
+    color: #062f4f;
     /* font-size: 3.0; */
 }
 .main .right p{
@@ -155,7 +168,7 @@ header nav{
     font-size: 20px;
 }
 .skill:hover{
-    border: 2px solid #910909;;
+    border: 2px solid #062f4f;
 }
 .skills{
     /* color: #910909; */
@@ -168,16 +181,16 @@ header nav{
 } */
 section.about{
     margin-top: -20%;
-    background-color: #910909;
+    background-color: #062f4f;
     padding: 6rem 0rem;
-    color: #7f7deb;
+    color:#ed2945;
     /* padding: 0 20%; */  box-shadow: 0 5px 35px rgba(0, 0, 0, 15);
 
 }
 .about-img{
     width: 300px;
-    border: 2px solid #7f7deb ;
-    color: #18b7ff;
+    border: 0.4rem solid #ed2945;
+    color: #ed2945;
     border-radius: 50%;
     height: 300px;
     transition: all .2s ease;
@@ -215,7 +228,7 @@ section.about{
 
 
 #educationPage>h1{
-    color: #910909;
+    color: #062f4f;
 }
 
 #educationPage .box-container{
@@ -251,8 +264,8 @@ section.about{
 #educationPage .box-container .box2 span{
 
     font-size: 1.3rem;
-    background: #910909;
-    color: #18b7ff;
+    background: #062f4f;
+    color: #ed2945;
     padding: .5rem 2.5rem;
     font-weight: 700;
 
@@ -260,7 +273,7 @@ section.about{
 }
 #educationPage .box-container .box2 h3{
     font-size: 1.5rem;
-    color: #910909;
+    color: #062f4f;
     font-weight: 600;
     padding-top: 1.5rem ;
 
@@ -269,7 +282,7 @@ section.about{
 #educationPage .box-container .box2 p{
 
     font-size: 1.0rem;
-    color: #093991;
+    color: #062f4f;
     padding-top: 1.5rem 0;
 
 }
@@ -315,7 +328,7 @@ section#ProjectPage{
 }
 .card{
     margin-top: 2rem;
-    border: 1.5px solid #910909;
+    border: 1.5px solid #062f4f;
     border-radius: 20px;
     height: auto;
     width: 350px;
@@ -332,7 +345,7 @@ section#ProjectPage{
 }
 .card p{
     margin-top: 1rem;
-    color: #910909;
+    color: #062f4f;
    height: 150px;
    font-size: 20px;
    width: 90%;
@@ -345,7 +358,7 @@ section#ProjectPage{
     grid-template-rows: auto;
     justify-content: space-between; */
     font-size: 18px;
-    color: #910909;
+    color: #062f4f;
     margin: auto;
 
 }
@@ -358,7 +371,7 @@ section#ProjectPage{
     padding: 1%;
 }
 .project-heading{
-    color: #910909;
+    color: #062f4f;
     margin-top: 2rem;
     text-align: center;
     font-size: 2rem;
@@ -369,7 +382,7 @@ section#ProjectPage{
     margin: auto;
     font-size: 25px;
     margin-top: 10px;
-    color: #093991;
+    color: #062f4f;
 }
 
 .size p{
@@ -385,7 +398,7 @@ section#ProjectPage{
 
 .Myskills{
     
-    color: #910909;
+    color: #062f4f;
     padding-bottom: 10%;
 }
 
@@ -459,7 +472,7 @@ section#ProjectPage{
 .contactus .title h2{
     /* color: var(--primary);
      */
-     color: #910909;
+     color: #062f4f;
     font-weight: 600;
 }
 .form{
@@ -477,9 +490,9 @@ section#ProjectPage{
 .contact{
     padding: 40px;
     /* background-color: var(--dark); */
-    background-color: #910909;
+    background-color: #062f4f;
     box-shadow: 0 5px 35px rgba(0, 0, 0, 15);
-    color:  #7f7deb;
+    color: #ed2945;
 }
 .box{
 
@@ -579,7 +592,7 @@ section#ProjectPage{
 .infoBox div span{
     min-width: 40px;
     height: 40px;
-    background: #18b7ff;
+    background: #ed2945;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -661,7 +674,7 @@ section#ProjectPage{
     top: 0;
     left: 0;
     z-index: 1001;
-    background:#18b7ff;;
+    background:#ed2945;
     padding: 2rem;
     padding-top: 5rem;
     transform: translateX(-100%);
@@ -854,7 +867,7 @@ section#ProjectPage{
     .main .right h6 {
         font-size: 2rem;
         
-        color: #910909;
+        color: #062f4f;
         margin-bottom: 1rem;
     }
     .main .right p{
@@ -1018,7 +1031,7 @@ section#ProjectPage{
     .main .right h6 {
         font-size: 2rem;
         
-        color: #910909;
+        color: #062f4f;
         margin-bottom: 1rem;
     }
     .main .right p{
@@ -1181,7 +1194,7 @@ section#ProjectPage{
     .main .right h6 {
         font-size: 2rem;
         
-        color: #910909;
+        color: #062f4f;
         margin-bottom: 1rem;
     }
     .main .right p{
@@ -1273,7 +1286,7 @@ section#ProjectPage{
     }
 
      .title>h2{
-        color: #910909;
+        color: #062f4f;
      }
 
 
@@ -1363,7 +1376,7 @@ section#ProjectPage{
     .main .right h6 {
         font-size: 2rem;
         
-        color: #910909;
+        color: #062f4f;
         margin-bottom: 1rem;
     }
     .main .right p{

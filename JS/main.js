@@ -34,7 +34,7 @@ function sendEmail(){
         Host : "smtp.gmail.com",
         Username : "d@gmail.com",
         Password : "00000000000",
-        To : 'a@gmail.com',
+        To : 'sudhirshukla1611@gmail.com',
         From : document.querySelector("#email").value,
         Subject : "New Contact from Portfolio",
         Body : "Name: "+document.querySelector("#f_name").value+" "+document.querySelector("#l_name").value
