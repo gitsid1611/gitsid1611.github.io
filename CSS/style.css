@@ -176,8 +176,9 @@ section.about{
 }
 .about-img{
     width: 300px;
-    border: 2px solid #7f7deb;
-    border-radius: 30px;
+    border: 2px solid #7f7deb ;
+    color: #18b7ff;
+    border-radius: 50%;
     height: 300px;
     transition: all .2s ease;
     margin-left: 20%;
