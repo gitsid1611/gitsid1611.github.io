@@ -6,6 +6,25 @@
     box-sizing: border-box;
     /* -webkit-font-smothing:antialiased; */
 }
+
+::-webkit-scrollbar{ 
+    width: 10px; 
+    
+  } 
+  ::-webkit-scrollbar-track{ 
+    box-shadow: inset 0 0 5px gray; 
+    border-radius: 8px; 
+  } 
+  ::-webkit-scrollbar-thumb{ 
+    background: linear-gradient(180deg, #ed2945 40%, #062f4f 89%); 
+    border-radius: 8px; 
+  }
+
+
+
+
+
+
 /* html{
     scroll-behavior: smooth;
 } */
