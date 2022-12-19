@@ -328,8 +328,9 @@ section.about{
 }
 
 
-section#ProjectPage{
+section #ProjectPage{
     box-shadow: 0 5px 35px rgba(0, 0, 0, 15);
+    width: 100%;
 
 }
 .contain{
@@ -350,7 +351,7 @@ section#ProjectPage{
     border: 1.5px solid #062f4f;
     border-radius: 20px;
     height: auto;
-    width: 350px;
+    width: 400px;
     /* padding: 5%;  */
 }
 .card img{
@@ -363,7 +364,7 @@ section#ProjectPage{
    
 }
 .card p{
-    margin-top: 1rem;
+    margin-top: 0.2rem;
     color: #062f4f;
    height: 150px;
    font-size: 20px;
@@ -405,7 +406,7 @@ section#ProjectPage{
 }
 
 .size p{
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 
@@ -738,11 +739,18 @@ section#ProjectPage{
     transform: translateX(0);
  }
 
-/* Responsiveness----------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-@media (max-width:400px ) and (min-width:300px) {
+/* //////////////////////Respnsive nesss for */
+/* ////////////////////////////////////////////////////
+///////////////////////////////
+
+/*   200 to 300     */
+
+/* ////////////////////////  */
+
+@media (max-width:300px ) and (min-width:250px) {
 
     body{
-        width: auto;
+        width: 100%;
         overflow-x: hidden;
         background-color: #c0c0c5;
     }
@@ -780,6 +788,274 @@ section#ProjectPage{
      
     }
 
+    #homePage{
+        width: 138%;
+    }
+
+    #aboutPage{
+        width: 138%;
+        /* margin-left: 20%; */
+    }
+
+    #educationPage{
+        width: 130%;
+    }
+
+    #skillPage{
+        width: 138%;
+    }
+
+    #ProjectPage{
+        width: 138%;
+    }
+
+    .contain{
+        width: 90%;
+        margin: auto;
+    }
+
+    .card{
+        width: 260px;
+    }
+
+    .btn{
+        width: 40%;
+        margin: auto;
+        font-size: 90%;
+        text-align: center;
+        padding: 0 0.5%;
+    }
+
+    #statics{
+        width: 138%;
+    }
+
+    #stat{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #aboupara{
+        width: 95%;
+        margin: auto;
+    }
+
+    #contact{
+        width: 138%;
+    }
+
+
+    .size{
+        font-size: 120%;
+    }
+
+    #resp{
+        font-size: 100%;
+    }
+
+    .Tech{
+        font-size: 100%;
+    }
+
+
+
+
+
+
+    .about-img {
+     
+        width: 70%;
+        margin: auto;
+        margin-left: 15%;
+    }
+    
+
+    .mobile_head{
+        position: fixed;
+        
+        width: 100%;
+        height: 50px;
+    
+        top: 15px;
+        background: var(--secondary);
+        margin-top: -15px;
+     }
+    .contact{
+        width: 350px;
+    }
+    .infoBox div a {
+    font-size: 14px;
+    }
+    .contactus .title h2 {
+       font-size: 24px;
+        font-weight: 600;
+    }
+    .contactus{
+      
+        padding: 20px;
+       
+    }
+    .box{
+  
+     grid-template-columns: 1fr;
+     grid-template-rows: auto;
+     grid-template-areas:
+         "form"
+         "info "
+         "map ";
+        
+    }
+    .map{
+     min-height: 300px;
+    }
+    .formBox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+    .inputBox {
+       
+        width: 100%;
+    }
+
+    .contain {
+       
+        height: auto;
+        grid-template-columns:1fr;
+        grid-template-rows: auto;
+       
+    }
+    .myskill {
+        height: 800px;
+       grid-template-columns: repeat(2,1fr);
+       gap: 10px;
+    }
+    .skill {
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+      
+    }
+    
+   
+    .main {
+        padding-top: 40%;
+    }
+    .main .right h1{
+       line-height: 30px;
+    }
+
+
+
+ 
+    header #main-nav{
+        display: none;
+    }
+    .hamberger{
+        display: flex;
+    }
+    .main .right h1{
+        font-size: 1.5rem;
+    }
+    .main .right h2{
+        font-size: 1.5rem;
+    }
+    .main .right h6 {
+        font-size: 2rem;
+        
+        color: #062f4f;
+        margin-bottom: 1rem;
+    }
+    .main .right p{
+        font-size: 16px;
+    }
+    .box{
+        margin: 0;
+    }
+
+
+ }
+
+
+
+
+
+
+/* Responsiveness----------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (max-width:400px ) and (min-width:300px) {
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+        background-color: #c0c0c5;
+    }
+
+    #nams{
+        display: block;
+    }
+
+    #homePage h2{
+
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+
+    }
+
+    .right h6{
+        width: 90%;
+        margin: auto;
+        font-size: 25px;
+
+    }
+
+    .card{
+        width: 260px;
+    }
+
+    .btn{
+        width: 40%;
+        margin: auto;
+        font-size: 90%;
+        text-align: center;
+        padding: 0 0.5%;
+    }
+
+    #stat{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    
+    .size{
+        font-size: 120%;
+    }
+
+    #resp{
+        font-size: 100%;
+    }
+
+    .Tech{
+        font-size: 100%;
+    }
+
+
+    
+    .container{
+        width: 90%;
+        margin: auto;
+        /* display: grid;
+        grid-template-columns: repeat(1,1fr); */
+
+    }
+
+    .container{
+        display: grid;
+        
+     
+    }
+
+   
 
     #aboupara{
         width: 95%;
@@ -910,6 +1186,11 @@ section#ProjectPage{
         background-color: #c0c0c5;
     }
 
+    #stat{
+        width: 50%;
+        margin: auto;
+    }
+
     #homePage h2{
 
         width: 90%;
@@ -917,6 +1198,12 @@ section#ProjectPage{
         font-size: 20px;
 
     }
+
+    #stat{
+        width: 80%;
+        margin-left: 10%;
+    }
+
 
     #nams{
         display: block;
