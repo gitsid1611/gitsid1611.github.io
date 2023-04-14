@@ -25,31 +25,16 @@
 
 
 
-/* html{
-    scroll-behavior: smooth;
-} */
+
 body{
-    /* background-color: var(--dark); */
-    /* background-color: white; */
+   
     font-family: 'Poppins',sans-serif;
     background-color: #c0c0c5;
 }
 
-/* :root{
- --primary: #3DCFD3;
- --dark: #161616;
- --pure:#FFFFFF;
- --ternary:#898989;
- --light:#F2F2F2;
- --secondary:#070606;
- --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-
-} */
 
 header{
-    
-    /* background-color: var(--dark); */
-    /* background-color: #691313; */
+   
    height: auto;
    
 }
@@ -333,17 +318,16 @@ section #ProjectPage{
     width: 100%;
 
 }
-.contain{
+#containsssssss{
     /* border: 1px solid green; */
     height: auto;
     width: 100%;
-    display: grid;
+   
     justify-content: center;
    
     padding: 0 30%;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: auto;
-    gap: 20px;
+   
+    
     padding-bottom: 10%;
 }
 .card{
@@ -351,8 +335,9 @@ section #ProjectPage{
     border: 1.5px solid #062f4f;
     border-radius: 20px;
     height: auto;
-    width: 400px;
-    /* padding: 5%;  */
+    /* width: 400px; */
+    width: 500px;
+    
 }
 .card img{
     display: block;
@@ -387,7 +372,7 @@ section #ProjectPage{
 } */
 .button {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1%;
 }
 .project-heading{
@@ -1694,4 +1679,249 @@ section #ProjectPage{
 
 
  }
+
+
+
+
+
+
+
+ /* ////////////Project Div ///////////////// */
+
+
+ 
+#projects{
+    /* border: 1px solid red; */
+    width: 100%;
+    
+    /* padding-top: 100px; */
+    padding-bottom: 15px;
+    /* margin-top: 100px; */
+    margin-bottom: 150px;
+    background-color: #c0c0c5;
+  
+  
+  }
+  #projects > p{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(85, 85, 251);
+  
+  }
+  
+  #projectDiv{
+  
+    width: 90%;
+    margin: 100px 10% 0px 10%;
+    /* border: 1px solid green; */
+    display: flex;
+    padding: 20px;
+    /* margin: auto; */
+    margin: 100px 5%;
+    /* height: 400px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #062f4f;
+    background-color: #a5a5d6;
+    
+  
+  }
+  
+  #projectDiv > #image{
+  
+    width: 50%;
+    transition-duration: 1.2s;
+    
+    /* border: 1px solid black; */
+    
+  
+  }
+  #projectDiv > #image:hover{
+    transform: scale(0.95);
+  }
+  
+  #image > img{
+    width: 100%;
+    height: 100%;
+  }
+  #image > img:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition-duration: 0.3s;
+  }
+  
+  #projectDiv > #details{
+  
+    margin-left: 3%;
+    width: 47%;
+    /* border: 1px solid black; */
+  
+  }
+  #details > hr{
+    border: 2px solid #ed2945;
+  }
+  
+  #title{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  #aboutweb{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 440;
+  
+  }
+  
+  #days{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 440;
+  }
+  
+  #tech{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 440;
+  }
+  #links{
+    margin-top: 15px;
+    /* border: 1px solid red; */
+    display: flex;
+    padding-left: 15px;
+  }
+  #links > a >div:first-child{
+  
+    width: 80px;
+    margin-right: 15px;
+  
+  }
+  #links > a >div{
+    height: 30px;
+    /* border: 1px solid black; */
+    font-size: 20px;
+    text-align: center;
+    background-color: #062f4f;
+    color: white;
+  }
+  #links >a> div:last-child{
+  
+  width: 120px;
+  
+  }
+  
+  
+  #links >a> div:hover{
+    background-color: white;
+    color: black;
+  
+  } 
+  
+  #links >a> div:hover {
+  
+    background-color: white;
+    color: black;
+    
+  }
+  #links > a {
+    text-decoration: none;
+  }
+  
+  #links >a> div {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+  
+  }
+
+
+
+
+  /* ///////////////  Prject part respionsiveness /////////*/
+
+  /* ***************tablet**************************** */
+
+@media all and (min-width : 768px ) and (max-width : 1023px){
+
+    #projectDiv{
+        display: block;
+    }
+
+    #projectDiv > #image{
+
+        width: 100%;
+
+    }
+
+    #projectDiv > #details{
+        width: 100%;
+        margin-left: 0%;
+
+    }
+
+}
+
+/* ****************mobile************************** */
+
+@media all and (min-width : 280px ) and (max-width : 767px){
+
+    #title{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    
+    #aboutweb{
+        margin-top: 10px;
+        font-size: 17px;
+        font-weight: 440;
+    
+    }
+
+    #tech{
+        margin-top: 10px;
+        font-size: 17px;
+        font-weight: 440;
+    }
+    
+    #days{
+        margin-top: 10px;
+        font-size: 17px;
+        font-weight: 440;
+    }
+
+    #projects{
+        /* border: 1px solid red; */
+        width: 100%;
+        /* height: 1000px; */
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 150px;
+    
+    
+    }
+
+    #projectDiv{
+        display: block;
+    }
+
+    #projectDiv > #image{
+
+        width: 100%;
+        height: 250px;
+
+    }
+
+    #projectDiv > #details{
+        width: 100%;
+        margin-left: 0%;
+
+    }
+
+    #links >a> div:last-child{
+
+        width: 95px;
+        
+        }
+
+}
+
  
